@@ -6,7 +6,20 @@ public class ShipRecs {
 
     int CaseShipped, UnitsShipped;
 
-    public ShipRecs() {
+    public ShipRecs(String shipment, String billofLading, String rcvFrom, String vendorName, String vendorAddr1, String vendorCity, String vendorState, String vendorZip, String vendorTele, String shipDate, String shipPriority, int caseShipped, int unitsShipped) {
+        Shipment = shipment;
+        BillofLading = billofLading;
+        RcvFrom = rcvFrom;
+        VendorName = vendorName;
+        VendorAddr1 = vendorAddr1;
+        VendorCity = vendorCity;
+        VendorState = vendorState;
+        VendorZip = vendorZip;
+        VendorTele = vendorTele;
+        ShipDate = shipDate;
+        ShipPriority = shipPriority;
+        CaseShipped = caseShipped;
+        UnitsShipped = unitsShipped;
     }
 
     public String getShipment() {

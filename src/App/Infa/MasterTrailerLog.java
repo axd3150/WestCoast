@@ -8,7 +8,46 @@ public class MasterTrailerLog {
     int TlQty, TlCSTot, TlCSMS, TlCSXD, TLCSSP, TLCSPA, TLCSPH, TLCSHP, TLCSCD, TLCSSPO,
     TLCSSPF, TLCSPHS, TLCSPAS, TLCSHPS, TLCSCDS, TLCSSVP, TlNum1, TlNum2;
 
-    public MasterTrailerLog() {
+    public MasterTrailerLog(String tlType, String tlShmt, String tlSku, String tlCSVp, String tlStat, String tlVnam, String tlPon, String tlMis1, String tlMis2, String tlMis3, String tlRcex, String tlcrex, String tlDateCreated, String TLTimeCreated, String tlDateMod, String tlTimeMod, String tlUser, String tlAdcr, String tlAtcr, String tlAdlm, String tlAtlm, int tlQty, int tlCSTot, int tlCSMS, int tlCSXD, int TLCSSP, int TLCSPA, int TLCSPH, int TLCSHP, int TLCSCD, int TLCSSPO, int TLCSSPF, int TLCSPHS, int TLCSPAS, int TLCSHPS, int TLCSCDS, int TLCSSVP, int tlNum1, int tlNum2) {s
+        TlType = tlType;
+        TlShmt = tlShmt;
+        TlSku = tlSku;
+        TlCSVp = tlCSVp;
+        TlStat = tlStat;
+        TlVnam = tlVnam;
+        TlPon = tlPon;
+        TlMis1 = tlMis1;
+        TlMis2 = tlMis2;
+        TlMis3 = tlMis3;
+        TlRcex = tlRcex;
+        Tlcrex = tlcrex;
+        TlDateCreated = tlDateCreated;
+        this.TLTimeCreated = TLTimeCreated;
+        TlDateMod = tlDateMod;
+        TlTimeMod = tlTimeMod;
+        TlUser = tlUser;
+        TlAdcr = tlAdcr;
+        TlAtcr = tlAtcr;
+        TlAdlm = tlAdlm;
+        TlAtlm = tlAtlm;
+        TlQty = tlQty;
+        TlCSTot = tlCSTot;
+        TlCSMS = tlCSMS;
+        TlCSXD = tlCSXD;
+        this.TLCSSP = TLCSSP;
+        this.TLCSPA = TLCSPA;
+        this.TLCSPH = TLCSPH;
+        this.TLCSHP = TLCSHP;
+        this.TLCSCD = TLCSCD;
+        this.TLCSSPO = TLCSSPO;
+        this.TLCSSPF = TLCSSPF;
+        this.TLCSPHS = TLCSPHS;
+        this.TLCSPAS = TLCSPAS;
+        this.TLCSHPS = TLCSHPS;
+        this.TLCSCDS = TLCSCDS;
+        this.TLCSSVP = TLCSSVP;
+        TlNum1 = tlNum1;
+        TlNum2 = tlNum2;
     }
 
     public String getTlType() {

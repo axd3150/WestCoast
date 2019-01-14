@@ -9,7 +9,37 @@ public class WestCoastWorkRecs {
 
     int CaseShipped, UnitsShipped;
 
-    public WestCoastWorkRecs() {
+    public WestCoastWorkRecs(String shipment, String billofLading, String rcvFrom, String vendorName, String vendorAddr1, String vendorCity, String vendorState, String vendorZip, String vendorTele, String shipDate, String shipPriority, String caseId, String caseCo, String caseDiv, String caseSku, String caseShippedQty, String stdCaseQty, String caseManuDate, String caseShipment, String caseVendorAsn, String casePO, String caseVendor, String caseStore, String caseReqAllocNbr, String caseDateCreated, String caseTimeCreated, String caseDateModified, String caseTimeModified, int caseShipped, int unitsShipped) {
+        Shipment = shipment;
+        BillofLading = billofLading;
+        RcvFrom = rcvFrom;
+        VendorName = vendorName;
+        VendorAddr1 = vendorAddr1;
+        VendorCity = vendorCity;
+        VendorState = vendorState;
+        VendorZip = vendorZip;
+        VendorTele = vendorTele;
+        ShipDate = shipDate;
+        ShipPriority = shipPriority;
+        CaseId = caseId;
+        CaseCo = caseCo;
+        CaseDiv = caseDiv;
+        CaseSku = caseSku;
+        CaseShippedQty = caseShippedQty;
+        StdCaseQty = stdCaseQty;
+        CaseManuDate = caseManuDate;
+        CaseShipment = caseShipment;
+        CaseVendorAsn = caseVendorAsn;
+        CasePO = casePO;
+        CaseVendor = caseVendor;
+        CaseStore = caseStore;
+        CaseReqAllocNbr = caseReqAllocNbr;
+        CaseDateCreated = caseDateCreated;
+        CaseTimeCreated = caseTimeCreated;
+        CaseDateModified = caseDateModified;
+        CaseTimeModified = caseTimeModified;
+        CaseShipped = caseShipped;
+        UnitsShipped = unitsShipped;
     }
 
     public String getShipment() {

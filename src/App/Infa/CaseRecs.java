@@ -5,7 +5,24 @@ public class CaseRecs {
     CaseVendorAsn, CasePO, CaseVendor, CaseStore, CaseReqAllocNbr, CaseDateCreated, CaseTimeCreated,
     CaseDateModified, CaseTimeModified;
 
-    public CaseRecs() {
+    public CaseRecs(String caseId, String caseCo, String caseDiv, String caseSku, String caseShippedQty, String stdCaseQty, String caseManuDate, String caseShipment, String caseVendorAsn, String casePO, String caseVendor, String caseStore, String caseReqAllocNbr, String caseDateCreated, String caseTimeCreated, String caseDateModified, String caseTimeModified) {
+        CaseId = caseId;
+        CaseCo = caseCo;
+        CaseDiv = caseDiv;
+        CaseSku = caseSku;
+        CaseShippedQty = caseShippedQty;
+        StdCaseQty = stdCaseQty;
+        CaseManuDate = caseManuDate;
+        CaseShipment = caseShipment;
+        CaseVendorAsn = caseVendorAsn;
+        CasePO = casePO;
+        CaseVendor = caseVendor;
+        CaseStore = caseStore;
+        CaseReqAllocNbr = caseReqAllocNbr;
+        CaseDateCreated = caseDateCreated;
+        CaseTimeCreated = caseTimeCreated;
+        CaseDateModified = caseDateModified;
+        CaseTimeModified = caseTimeModified;
     }
 
     public String getCaseId() {

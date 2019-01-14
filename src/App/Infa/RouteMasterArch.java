@@ -4,7 +4,15 @@ public class RouteMasterArch {
     String Location, RecType, Route, RouteLoad, RouteStore, RouteShipNbr, RouteState,
     RouteCarrierServ;
 
-    public RouteMasterArch() {
+    public RouteMasterArch(String location, String recType, String route, String routeLoad, String routeStore, String routeShipNbr, String routeState, String routeCarrierServ) {
+        Location = location;
+        RecType = recType;
+        Route = route;
+        RouteLoad = routeLoad;
+        RouteStore = routeStore;
+        RouteShipNbr = routeShipNbr;
+        RouteState = routeState;
+        RouteCarrierServ = routeCarrierServ;
     }
 
     public String getLocation() {

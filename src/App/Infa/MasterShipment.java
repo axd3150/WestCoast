@@ -14,7 +14,65 @@ public class MasterShipment {
         TtlCube, TlrCSTot, TlrCasMS, TlrCSXd, TlrCSSp, TlrCSPa, TlrCSPh, TlrCSCd, TlrCSpo,
         TlrCSPf, TlrCSphs, TlrCSpas, TlrCShps, TlrCScds;
 
-    public MasterShipment() {
+    public MasterShipment(String EDI, String ready, String usrReady, String reqby, String vendor, String addr, String addr2, String city, String state, String zip, String contact, String phone, String fax, String email, String pallet, String stack, String freight, String shipHrs, String appoint, String inst, String carrier, String container, String load, String pickType, String invNbr, String shipNote, String trailer, String door, String usrTrailer, String status, String usrSaved, String usrFinal, String revised, String duplicate, String TMSShip, int auth, int PO, int nbrCartons, int cartonsWght, int cartonsCube, int reqKey, int TTLPallet, int TTLCartons, int TTLWght, int ttlCube, int tlrCSTot, int tlrCasMS, int tlrCSXd, int tlrCSSp, int tlrCSPa, int tlrCSPh, int tlrCSCd, int tlrCSpo, int tlrCSPf, int tlrCSphs, int tlrCSpas, int tlrCShps, int tlrCScds) {
+        this.EDI = EDI;
+        Ready = ready;
+        UsrReady = usrReady;
+        Reqby = reqby;
+        Vendor = vendor;
+        Addr = addr;
+        Addr2 = addr2;
+        City = city;
+        State = state;
+        Zip = zip;
+        Contact = contact;
+        Phone = phone;
+        Fax = fax;
+        Email = email;
+        Pallet = pallet;
+        Stack = stack;
+        Freight = freight;
+        ShipHrs = shipHrs;
+        Appoint = appoint;
+        Inst = inst;
+        Carrier = carrier;
+        Container = container;
+        Load = load;
+        PickType = pickType;
+        InvNbr = invNbr;
+        ShipNote = shipNote;
+        Trailer = trailer;
+        Door = door;
+        UsrTrailer = usrTrailer;
+        Status = status;
+        UsrSaved = usrSaved;
+        UsrFinal = usrFinal;
+        this.revised = revised;
+        Duplicate = duplicate;
+        this.TMSShip = TMSShip;
+        Auth = auth;
+        this.PO = PO;
+        this.nbrCartons = nbrCartons;
+        CartonsWght = cartonsWght;
+        CartonsCube = cartonsCube;
+        ReqKey = reqKey;
+        this.TTLPallet = TTLPallet;
+        this.TTLCartons = TTLCartons;
+        this.TTLWght = TTLWght;
+        TtlCube = ttlCube;
+        TlrCSTot = tlrCSTot;
+        TlrCasMS = tlrCasMS;
+        TlrCSXd = tlrCSXd;
+        TlrCSSp = tlrCSSp;
+        TlrCSPa = tlrCSPa;
+        TlrCSPh = tlrCSPh;
+        TlrCSCd = tlrCSCd;
+        TlrCSpo = tlrCSpo;
+        TlrCSPf = tlrCSPf;
+        TlrCSphs = tlrCSphs;
+        TlrCSpas = tlrCSpas;
+        TlrCShps = tlrCShps;
+        TlrCScds = tlrCScds;
     }
 
     public String getEDI() {

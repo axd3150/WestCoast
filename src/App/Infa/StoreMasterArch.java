@@ -12,7 +12,60 @@ public class StoreMasterArch {
     StoreSpecialIns9, StoreSpecialIns10, StoreConstraint1, StoreConstraint2, StoreConstraint3,
     StoreMis1, StoreMis2, StoreMis3, StoreMis4;
 
-    public StoreMasterArch() {
+    public StoreMasterArch(String loc, String store, String storeName, String storeAddr, String storeAddr2, String storeAddr3, String storeCity, String storeState, String storeZip, String storeCountry, String storeTele, String storeContact, String storeSkuCubed, String storeCompany, String storeDiv, String storeMerchCo, String storeMerchDiv, String storeStat, String storeOpenDate, String storeCloseDate, String storeHoldDate, String storeGroup, String storeChannel, String storeZone, String storeAttention, String storeShipType, String storeCarrier, String storeCarrierType, String storeRouteName, String storeRouteAttrib, String storeRouteType, String storeRouteType2, String storeRouteZip, String storeMerchGroup, String storeMerchType, String storeBackFill, String storeSpecialIns1, String storeSpecialIns2, String storeSpecialIns3, String storeSpecialIns4, String storeSpecialIns5, String storeSpecialIns6, String storeSpecialIns7, String storeSpecialIns8, String storeSpecialIns9, String storeSpecialIns10, String storeConstraint1, String storeConstraint2, String storeConstraint3, String storeMis1, String storeMis2, String storeMis3, String storeMis4) {
+        Loc = loc;
+        Store = store;
+        StoreName = storeName;
+        StoreAddr = storeAddr;
+        StoreAddr2 = storeAddr2;
+        StoreAddr3 = storeAddr3;
+        StoreCity = storeCity;
+        StoreState = storeState;
+        StoreZip = storeZip;
+        StoreCountry = storeCountry;
+        StoreTele = storeTele;
+        StoreContact = storeContact;
+        StoreSkuCubed = storeSkuCubed;
+        StoreCompany = storeCompany;
+        StoreDiv = storeDiv;
+        StoreMerchCo = storeMerchCo;
+        StoreMerchDiv = storeMerchDiv;
+        StoreStat = storeStat;
+        StoreOpenDate = storeOpenDate;
+        StoreCloseDate = storeCloseDate;
+        StoreHoldDate = storeHoldDate;
+        StoreGroup = storeGroup;
+        StoreChannel = storeChannel;
+        StoreZone = storeZone;
+        StoreAttention = storeAttention;
+        StoreShipType = storeShipType;
+        StoreCarrier = storeCarrier;
+        StoreCarrierType = storeCarrierType;
+        StoreRouteName = storeRouteName;
+        StoreRouteAttrib = storeRouteAttrib;
+        StoreRouteType = storeRouteType;
+        StoreRouteType2 = storeRouteType2;
+        StoreRouteZip = storeRouteZip;
+        StoreMerchGroup = storeMerchGroup;
+        StoreMerchType = storeMerchType;
+        StoreBackFill = storeBackFill;
+        StoreSpecialIns1 = storeSpecialIns1;
+        StoreSpecialIns2 = storeSpecialIns2;
+        StoreSpecialIns3 = storeSpecialIns3;
+        StoreSpecialIns4 = storeSpecialIns4;
+        StoreSpecialIns5 = storeSpecialIns5;
+        StoreSpecialIns6 = storeSpecialIns6;
+        StoreSpecialIns7 = storeSpecialIns7;
+        StoreSpecialIns8 = storeSpecialIns8;
+        StoreSpecialIns9 = storeSpecialIns9;
+        StoreSpecialIns10 = storeSpecialIns10;
+        StoreConstraint1 = storeConstraint1;
+        StoreConstraint2 = storeConstraint2;
+        StoreConstraint3 = storeConstraint3;
+        StoreMis1 = storeMis1;
+        StoreMis2 = storeMis2;
+        StoreMis3 = storeMis3;
+        StoreMis4 = storeMis4;
     }
 
     public String getLoc() {
